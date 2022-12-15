@@ -1,0 +1,104 @@
+/*=============== VARIABLES CSS ===============*/
+
+:root {
+
+    /*========== Colors ==========*/
+    /*Color mode HSL(hue, saturation, lightness)*/
+    --first-color: #BFA58E;
+    --first-color-alt:#DABCB2;
+    --first-color-alt2:#13B3F2;
+    --title-color: hsl(355, 4%, 15%);
+    --text-color: hsl(355, 4%, 35%);
+    --text-color-light: hsl(355, 4%, 55%);
+    --body-color: #F2F2F2;
+    --container-color: #fff;
+    --text-color2:#EBCDC3;
+    --text-color3:#D9310B;
+  }
+  
+  
+  /*=========All============*/
+  
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;    
+  }
+  body {
+      background-color: var(--body-color);
+  }
+  
+  li {
+      list-style-type: none;
+  }
+  
+  a {
+      text-decoration: none;
+  }
+  /*=========Header============*/
+  
+  .header {
+      height: 100vh;
+      width: 100%;    
+      background: url(../img/fading-blue-background.jpg) no-repeat;
+      background-position: center;
+  }
+  
+  /*=========Nav============*/
+  
+  header nav {   
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 2.813rem;
+      padding-left: 8%;
+      padding-right: 8%;
+      background-color: darkslateblue;         
+  }
+  
+  /*=========Logo============*/
+  
+  nav a#logo {
+      color: #F26A4B;
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: 0.2rem;
+  }
+  
+  span#logo-span {
+      
+  }
+  
+  
+  /*=========Menu-Bar============*/
+  
+  nav ul#nav__list {
+     
+      
+  }
+  
+  nav ul .nav__item {    
+      display: inline-block;
+      padding: 0.625rem 1.5625rem;
+  }
+  
+  nav ul li .nav__link {
+      color: darkolivegreen;
+      font-weight: bold;
+      font-size: 1.2rem;
+      text-transform: capitalize;
+  }
+  
+  nav ul li .nav__link:hover {
+      color: rgb(192, 223, 223);
+      transition: .4s;
+  }
+  
+  /*=========Search============*/
+  nav ul#nav__search {
+      
+  }
+  
+  nav ul .nav__button:hover {
+      transform: scale(1.2);
+  }
