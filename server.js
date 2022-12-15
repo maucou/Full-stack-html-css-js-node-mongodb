@@ -21,6 +21,7 @@ app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
 app.use(express.static(path.resolve(__dirname, 'public')))
 
+
 const sessionOptions = session({
     secret:'etetett eyeyeyyeyneu eyeyeye',
     store: MongoStore.create({mongoUrl: process.env.CONNECTIONSTRING}),
@@ -53,4 +54,5 @@ app.on('pronto', () => {
         console.log('Server run successfully')
     })
 })
+
 
