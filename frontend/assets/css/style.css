@@ -51,6 +51,7 @@
       padding-top: 2.813rem;
       padding-left: 8%;
       padding-right: 8%;
+      padding-bottom: 3%;
       background-color: darkslateblue;         
   }
   
@@ -60,7 +61,7 @@
       color: #F26A4B;
       font-size: 2rem;
       font-weight: 700;
-      letter-spacing: 0.2rem;
+      letter-spacing: 0.2rem;     
   }
   
   span#logo-span {
@@ -94,7 +95,22 @@
   
   /*=========Search============*/
   nav ul#nav__search {
+      position: relative;
+      height: 35px;
+      width: 250px;
       
+  }
+
+  #nav__search input[type="text"]{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: 2px solid darkseagreen;
+    border-radius: 8px;
+    padding: 0 10px 0 20px;
   }
   
   nav ul .nav__button:hover {
